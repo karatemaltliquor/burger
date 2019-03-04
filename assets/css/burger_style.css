@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+body {
+    font-size: 16px;
+    font-family: 'Playfair Display', serif !important;
+    background-image: url("https://media1.tenor.com/images/18cf96fd9af71c43a013bd5abb4de342/tenor.gif?itemid=4511570");
+    color: aliceblue !important;
+}
+.hr, hr {
+    color: antiquewhite !important;
+}
+.container {
+    margin-top: 20px;
+}
+.h1, h1 {
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px antiquewhite, 0 0 5px whitesmoke;
+}
+
+.input-group {
+	margin-bottom: 10px;
+}
+.btn-danger {
+    height: 30px;
+    padding: 0 !important;
+}
+.input-group-addon {
+    color: aliceblue;
+    width: 80%;
+    height: 30px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #222222;
+    border: 1px solid #ccc;
+}
+
+.form-control{
+    background-color: #222222 !important;
+}
+
+#new-burger {
+	max-width: 340px;
+	margin: 20px auto;
+}
+.btn-primary {
+    color: #222222 !important;
+    background-color: #edbf58 !important;
+}
+
+#new-burger button {
+	margin-top: 10px;
+}
+
+.eaten_burger {
+	margin-bottom: 10px;
+    color: aliceblue;
+    border-radius: 3px;
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #040403;
+    opacity: 0.6;
+    border: 1px solid #ccc;
+}
+
+p.text-danger{
+    font-size: 14;
+}
+
+.pulsate {
+    animation: pulsate 2s ease-out;
+    animation-iteration-count: infinite; 
+    opacity: 0.0;
+}
+@-webkit-keyframes pulsate {
+    0% {opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {opacity: 0.0;}
+}
